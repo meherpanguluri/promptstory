@@ -2,7 +2,7 @@
 
 A curated library of high-leverage AI prompts — the ones that actually change how you work.
 
-Live at: https://meher.github.io/promptstory
+Live at: https://meherpanguluri.github.io/promptstory
 
 ## What this is
 
