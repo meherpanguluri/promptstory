@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "The Reverse Interview",
+    "category": "Project Kickoff",
+    "tags": ["kickoff", "requirements", "clarity"],
+    "prompt": "I'm about to start this project. Interview me until you have 95% confidence about what I actually want, not what I think I should want.",
+    "why_it_works": "AI asking YOU questions is 10x more powerful than you asking AI questions. This forces Claude to deeply understand your intent before building anything.",
+    "usage_notes": "Use this at the very start of any project or feature. Let the AI ask multiple rounds of questions. Don't rush to the build phase — the interrogation IS the work."
+  },
+  {
+    "id": 2,
+    "title": "The Rubber Duck Debugger",
+    "category": "Debugging",
+    "tags": ["debugging", "diagnosis", "root cause"],
+    "prompt": "I'm going to explain this bug to you. Don't suggest fixes yet — just ask me clarifying questions until we've identified the root cause together. Then and only then, suggest solutions.",
+    "why_it_works": "Jumping straight to solutions skips diagnosis. This forces a shared understanding of the problem before any code changes, dramatically reducing fix-then-break cycles.",
+    "usage_notes": "Paste your bug description, error message, and relevant code. Resist the urge to accept the first fix offered — the questions phase is where the real insight happens."
+  },
+  {
+    "id": 3,
+    "title": "The Steel Man",
+    "category": "Thinking",
+    "tags": ["critical thinking", "decisions", "counterarguments"],
+    "prompt": "I'm about to make this decision: [decision]. Steel man the strongest possible case against it. Don't hold back — I want the best argument for why I'm wrong.",
+    "why_it_works": "Most AI use reinforces what you already think. This deliberately inverts that. The strongest counterargument you haven't heard is the most valuable one.",
+    "usage_notes": "After getting the steel man, ask: 'Given this, what would you do?' The combination of challenge + recommendation is unusually powerful for high-stakes decisions."
+  },
+  {
+    "id": 4,
+    "title": "The Blank Page Killer",
+    "category": "Writing",
+    "tags": ["writing", "drafting", "unblocking"],
+    "prompt": "I need to write [piece]. Don't write it for me. Instead, ask me 5 questions that will unlock what I actually want to say. Then give me the single most important sentence to start with.",
+    "why_it_works": "Writer's block is almost always a clarity problem, not a writing problem. Answering questions forces the thinking that makes writing easy. One strong first sentence breaks the paralysis.",
+    "usage_notes": "Works for emails, essays, docs, posts, or any long-form content. After the first sentence, you can either continue alone or ask Claude to draft the full piece from your answers."
+  },
+  {
+    "id": 5,
+    "title": "The Socratic Code Review",
+    "category": "Code Review",
+    "tags": ["code review", "learning", "improvement"],
+    "prompt": "Review this code, but only ask questions — don't make statements. Each question should make me think about something I might have missed or could improve.",
+    "why_it_works": "Statement-based reviews create defensiveness. Questions create curiosity. A question like 'What happens if this is null?' teaches more than 'This will throw a NullPointerException.'",
+    "usage_notes": "Paste your code after the prompt. This format is especially valuable for learning contexts or when reviewing your own code — it surfaces blind spots without creating a list of 'errors.'"
+  },
+  {
+    "id": 6,
+    "title": "The Research Synthesizer",
+    "category": "Research",
+    "tags": ["research", "synthesis", "mental models"],
+    "prompt": "I've been reading about [topic]. Don't explain it back to me. Instead: what are the 3 things that most people get wrong about this, and what's the one mental model that unlocks deep understanding?",
+    "why_it_works": "Standard research summaries give you what you already know. Misconceptions and mental models give you the non-obvious insights that change how you think about a topic.",
+    "usage_notes": "Works best after you've already done some reading. The 'most people get wrong' framing tends to surface genuinely surprising insights rather than standard explanations."
+  }
+]
